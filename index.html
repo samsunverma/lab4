@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+      <link rel="stylesheet"
+      href="style.css">
+      <style>
+            p:hover, h1:hover, a:hover  {
+                background-color: yellow;
+            }
+            .header {
+                padding: 10px;
+                text-align: center;
+                background: rgb(4, 240, 75);
+                font-size: 20px;
+                
+                      }
+            
+
+            .topnav {
+                overflow:hidden;
+                background-color: burlywood;
+            }
+             
+            .topnav a{
+                float: left;
+                color: gold;
+                text-align: center;
+                padding: 20px 25px;
+                text-decoration: double;
+                font-size: 20px;
+            }
+
+            .topnav a:hover {
+                background-color: blue;
+                color: azure;
+            }
+            .topnav a.active    {
+                background-color: green;
+                color: beige;
+            }
+
+            .mydiv  {
+                border: 2px outset black;
+                background-color: white;
+                text-align: center;
+                
+            }
+            footer{
+                text-align: center;
+                padding: 3px;
+                background-color: darkgrey;
+                color: white;
+
+            }
+            .btn    {
+                border: none;
+                outline: none;
+                padding: 10px 16px;
+                background-color: grey;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+            .active, .btn:hover{
+                background-color: #666;
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="header">
+            <h1>Samsun Verma</h1>
+        </div>
+        <div class="topnav">
+            <a class="active" href="#introduction">Introduction</a>
+            <a class="active" href="#Education">Education</a>
+            <a class="active" href="#Hobbies">Hobbies</a>
+            <a class="active" href="#Career">Career</a>
+        </div>
+        <div class="mydiv">
+            <h1> Education</h1>
+            <p> I am a compute graduate from India</p>
+     <p> Please type your name</p>
+            <input type="text" id="mytext" value="Name">
+            <p>Rating</p> 
+            <div id="myDIV">
+                <button class="btn">*</button>
+                <button class="btn">**</button>
+                <button class="btn">***</button>
+                <button class="btn">****</button>
+                <button class="btn active">*****</button>
+            </div>
+           
+            <footer>
+        <p>Available at n01726448@humber.ca
+        <a href="samsunverma2013@gmail.com">samsunverma2013@gmail.com</a></p>
+        
+    </div>
+    
+</body>
+</html>
